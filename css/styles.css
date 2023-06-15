@@ -311,6 +311,7 @@ img {
   padding-bottom: 120px;
 }
 .customers-title {
+  color: var(--theme-dark);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -334,14 +335,14 @@ img {
   color: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  transition: border var(--hover), color var(--hover);
+  transition: border-color var(--hover), color var(--hover);
   width: 100%;
   height: 100%;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid var(--active-link);
+  border-color: var(--active-link);
   color: var(--active-link);
 }
 .customers-icon {
